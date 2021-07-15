@@ -7,7 +7,8 @@ echo '##### About to run install-gnome-gui script ##################'
 echo '##########################################################################'
 
 # https://codingbee.net/tutorials/vagrant/vagrant-enabling-a-centos-vms-gui-mode
-yum groupinstall -y 'gnome desktop'
+# yum groupinstall -y 'gnome desktop'
+yum groupinstall -y "GNOME Desktop"
 yum install -y 'xorg*'
 
 # https://unix.stackexchange.com/questions/181009/gnome-license-not-accepted-issue-when-system-has-been-rebooted
