@@ -33,7 +33,7 @@ else
   
   sh ins.sh
   
-  cd ../pndh
+  cd ../pdh
   chmod +x *.sh
   dos2unix *.sh
   
